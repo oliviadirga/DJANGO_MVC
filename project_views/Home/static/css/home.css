@@ -1,0 +1,60 @@
+#foto{
+    padding: 0px;
+}
+.header-flex {
+    position: relative;
+    height: 536px;
+    padding: 0 40px;
+}
+.center {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.head-color {
+    background-color: rgb(68, 221, 213);
+    color: white;
+}
+.margin-header {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.whoare {
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.arewe {
+    padding-left: 96px;
+}
+.section {
+    padding: 45px 0;
+}
+.section .column-learn .column-middle .learn-img .learn-img-middle img {
+    max-width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.section .column-learn .column-middle {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center !important;
+    width: 100%;
+    padding: 10px;
+}
+.product {
+    font-size: 25px;
+    font-weight: 400;
+    color: #3b3b3b;
+    margin: 0;
+    margin-bottom: 0px;
+    text-align: center !important;
+    background-color: rgb(54, 154, 221);
+}
+.contact-footer {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    margin-bottom: 0px;
+    text-align: center !important;
+    background-color: black;
+}

@@ -1,0 +1,51 @@
+
+#foto{
+    padding: 0px;
+}
+.header-flex {
+    position: relative;
+    height: 536px;
+    padding: 0 40px;
+}
+.center {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.head-color {
+    background-color: rgb(68, 221, 213);
+    color: white;
+}
+.margin-header {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.center {
+    margin-bottom: 20px;
+}
+.content {
+    text-align: left;
+}
+.section-content {
+    margin: 0%;
+}
+#photo {
+    margin: 0%;
+}
+.product {
+    font-size: 25px;
+    font-weight: 400;
+    color: #3b3b3b;
+    margin: 0;
+    margin-bottom: 0px;
+    text-align: center !important;
+    background-color: rgb(54, 154, 221);
+}
+.contact-footer {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    margin-bottom: 0px;
+    text-align: center !important;
+    background-color: black;
+}

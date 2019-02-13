@@ -1,0 +1,98 @@
+{% load static %}
+
+<html>
+  <head>
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/author.css' %}" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white">
+            <h5 class="my-0 mr-md-auto font-weight-normal">Alpha Tech Academy</h5>
+            <nav class="my-2 my-md-0 mr-md-3">
+              <a class="p-2 text-dark" href="{% url 'home' %}">Home</a>
+              <a class="p-2 text-dark" href="{% url 'blog' %}">Blog</a>
+              <a class="p-2 text-dark" href="{% url 'mentor' %}">Mentor</a>
+              <a class="p-2 text-dark" href="{% url 'mentee' %}">Mentee</a>
+              <a class="p-2 text-dark" href="{% url 'author' %}">Author</a>
+            </nav>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 text-center center head-color">
+            <div>
+                <img id="foto" src="{% static 'images/alpha-logo.png' %}" alt="" >
+                <br/><br/>
+                <span id="nama"><b>Alpha Tech Academy</b></span>
+                <br/>
+                <p class="margin-header">Alpha Tech Academy is a tech talent incubator that gives everyone (even
+                  non IT background) a chance to be a professional Tech Talent within 3
+                  months. Contact Person; Email : academy@alphatech.id Mobile phone:
+                  0877 9609 9530</p>
+            </div>
+          </div>
+        </div>  
+    </header>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center center">
+            <div>
+                <img id="foto" src="{% static 'images/profile-pic2.jpg' %}" alt="" >
+                <br/><br/>
+                <span id="nama"><b>Olivia Dirga</b></span>
+                <br/>
+                <p class="margin-header">My name is Olivia Dirga. I am from Malang. I am a Food Science Spesialist.
+                    Contact Person; Email : olivia@alphatech.id Mobile phone: 0888 2222 4444</p>
+                </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+                <div class="table col-lg-12 col-md-12 col-sm-12 text-center center">
+                    <table>
+                      <tr>
+                        <th><b>Address</b></th>
+                        <td>: Malang</td>
+                      </tr>
+                      <tr>
+                        <th><b>Telephone</b></th>
+                        <td>: 0888 2222 4444</td>
+                      </tr>
+                      <tr>
+                        <th><b>Education</b></th>
+                        <td>: Food Tech Major</td>
+                      </tr>
+                      <tr>
+                        <th><b>Profession</b></th>
+                        <td>: Scientist</td>
+                      </tr>
+                      <tr>
+                        <th><b>Nationality</b></th>
+                        <td>: Indonesia</td>
+                      </tr>
+                      <tr>
+                        <th><b>Company</b></th>
+                        <td>: Food Tech</td>
+                      </tr>
+                      <tr>
+                        <th><b>Email</b></th>
+                        <td>: olivia@alphatech.id</td>
+                      </tr>
+                    </table>
+                    <br/>
+                    <iframe class="center" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7902.711981096954!2d112.60695494373651!3d-7.962113601509755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salpha+tech+academy!5e0!3m2!1sen!2sid!4v1550045279141" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>  
+                  </div>
+          </div>
+  </body>
+  <footer>
+      <div class="product">
+          <span>Our Product:</span>
+          <img src="{% static 'images/logo-grey-alphapay.png' %}" class="img-product" alt="logo alphapay">
+          <img src="{% static 'images/logo-grey-sepulsa.png' %}" class="img-product" alt="logo sepulsa">
+          <img src="{% static 'images/logo-grey-alphabill.png' %}" class="img-product" alt="logo alphabill">
+      </div>
+      <div class="contact-footer">
+        <span>Contact Person: Mobile phone: 0877 9609 9530. Email : <a href="">academy@alphatech.id</a></span>
+      </div>   
+  </footer>

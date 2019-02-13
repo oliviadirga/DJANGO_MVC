@@ -1,0 +1,24 @@
+{% extends 'Blog/blog.html' %}
+{% load static %}
+
+{% block content %}
+    {% for blogspot in blogs %}
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 center">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 center">
+                <div>
+                    <img id="photo" src="{{ blogspot.images.url }}" alt="" >
+                    <br/>
+                    <span>{{ blogspot.waktu_update }}</span>
+                    <br/>
+                    <span id="title"><b>{{ blogspot.judul }}</b></span>
+                    <br/>
+                    <p class="content">{{ blogspot.deskripsi }}
+                    </p>
+                    <span><a href="">Baca Selengkapnya</a></span>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}                  
